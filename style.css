@@ -20,6 +20,13 @@ body {
   font-family: fantasy, cursive;
 }
 
+h1 {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width:768px) {
 
   .about-matrix {
@@ -103,7 +110,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+.new-task {
   display: block;
   margin: 0 0 20px;
 }
