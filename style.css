@@ -5,18 +5,18 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.about-matrix {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.about-matrix img {
+.header__img {
   width: 100%;
 }
 
-.about-matrix .more-info {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -29,13 +29,13 @@ h1 {
 
 @media (max-width:768px) {
 
-  .about-matrix {
+  .header {
     text-align: center;
   }
 
 }
 
-.to-do-list {
+.todolist {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -178,11 +178,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-.edit-mode input[type="text"] {
+.incompleted-tasks__item_edit input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.incompleted-tasks__item_edit label {
   display: none;
 }
